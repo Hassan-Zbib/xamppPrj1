@@ -34,28 +34,37 @@ body {
   align-items: center;
 }
 
-.input {
-
-}
-
-.title {
-
-}
-
 .colored {
-    background-color: var(--main-color);
-    color: #fff;
+  background-color: var(--main-color);
+  color: #fff;
 }
 
 .white {
-  color: #333;
-  background-color: #fff;
+color: #333;
+background-color: #fff;
+}
+
+input {
+  padding: 5px 20px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.results {
+  min-width: 80%;
+  min-height: 50px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .button {
   border: 1px solid black;
   border-radius: 10px;
-  padding: 5px;
+  padding: 6px;
   margin: 5px 0 10px 0;
   cursor: pointer;
   text-decoration: none;
