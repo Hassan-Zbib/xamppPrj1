@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    min-height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .item {
+    min-height: 100%;
+    flex-grow: 1;
+    flex-basis: 50%;
+    padding: 5px 10px;
+  }
+
+  .purple {
+      background-color: rgb(122, 36, 202);
+      color: #fff;
+  }
+
+  .white {
+    color: #333;
+    background-color: #fff;
+  }

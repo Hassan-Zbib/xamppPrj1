@@ -5,33 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="src/styles/index.css">
     <title>Document</title>
 </head>
 
 <body>
+
     <div class="container">
 
-        <div id="equation">
-            <p>Enter x and y: </p>
-            <input type="number" min="0" step="1"/>
-            <a class="button"></a>
+        <div id="equation" class="item purple">
+            <p>Enter values below to calculate the following expression: 2 * x + y % 2 </p>
+            <p>Enter x: </p>
+            <input type="number" step="1" />
+            <p>Enter y: </p>
+            <input type="number" step="1" />
+            <a class="button">Submit</a>
+            <div class="results">
+                <p>Results: </p>
+            </div>
         </div>
 
-        <div id="palindrome">
-
-        </div>
-
-        <div id="spaces">
-
-        </div>
-
-        <div id="password">
-
+        <div id="palindrome" class="item">
+            <p>Check if a string is a palindrome</p>
+            <input type="text" value="" />
+            <a class="button">Submit</a>
+            <div class="results">
+                <p>Results: </p>
+            </div>
         </div>
 
     </div>
 
+    <div class="container">
+
+        <div id="spaces" class="item">
+            <p>Remove Spaces from string:</p>
+            <input type="text" value="" />
+            <a class="button">Submit</a>
+            <div class="results">
+                <p>Results: </p>
+            </div>
+        </div>
+
+        <div id="password" class="item purple">
+            <p>Check if your password is valid and get the hashed version in SHA256:</p>
+            <input type="text" value="" />
+            <a class="button">Submit</a>
+            <div class="results">
+                <p>Results: </p>
+            </div>
+        </div>
+
+    </div>
 
     <script src="src/scripts/index.js"></script>
 </body>
