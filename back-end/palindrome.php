@@ -12,7 +12,7 @@ function isPalindrome($input_string) {
     }
 }
 
-echo json_decode( ["isPalindrome" => isPalindrome($input_string)] );
+echo json_encode( ["isPalindrome" => isPalindrome($input_string)] );
 
 
 ?>
