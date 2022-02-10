@@ -13,7 +13,6 @@ function checkPasswordValidity($pass) {
 
 $is_valid = checkPasswordValidity($input);
 $hash = $is_valid ? hash('sha256', $input) : "";
-
 $res = ["isValid" => $is_valid, "hash" => $hash];
 
 echo json_encode($res);
